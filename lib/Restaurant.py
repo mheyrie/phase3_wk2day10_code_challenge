@@ -13,9 +13,10 @@ class Restaurant:
     def __init__(self, name):
         self._name = name
         self.reviews = []
+        
 
     @property
-    def name(self):
+    def name(self): 
         return self._name
     
     def reviews(self):
@@ -23,7 +24,9 @@ class Restaurant:
     
     def review_addition(self, value):
         return self.reviews.append(value)
-
+    @classmethod
+    def customers():
+        return Customer.customers_list
     
 
 # restaurant1 = Restaurant("Dominos")
