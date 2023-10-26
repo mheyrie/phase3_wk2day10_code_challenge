@@ -5,7 +5,7 @@
   - Returns a **unique** list of all customers who have reviewed a particular restaurant.
   """
 
-from Review import Review
+#from Review import Review
 from Customer import Customer
 
 
@@ -24,12 +24,12 @@ class Restaurant:
     
     def review_addition(self, value):
         return self.reviews.append(value)
-    @classmethod
+  
     def customers():
         return Customer.customers_list
     
 
-# restaurant1 = Restaurant("Dominos")
-# restaurant1_name = restaurant1.name
-# restaurant1.name= "KFC"
-# print(restaurant1_name)
+restaurant1 = Restaurant("Dominos")
+restaurant1_name = restaurant1.name
+
+print(restaurant1_name)

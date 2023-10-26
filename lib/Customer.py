@@ -23,7 +23,7 @@ class Customer:
         return cls.customers_list
     
     def __repr__(self):
-        return f"{all}"
+        return f"{self.firstname} {self.lastname}"
         pass
     
  
@@ -38,4 +38,4 @@ class Customer:
 # print(customer1.full_name())
 # print(customer2.full_name())
 # print(customer3.full_name())
-# print(customers)
+# print(Customer.customers_list)
